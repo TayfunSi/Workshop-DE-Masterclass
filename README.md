@@ -1,2 +1,2 @@
-# workshop-DE-Masterclass
+# Workshop-DE-Masterclass
 This is the repository for the Workshop "Data Engineering Masterclass"
