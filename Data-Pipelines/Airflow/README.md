@@ -11,7 +11,7 @@ Bitte installiere vorher:
 
 - Docker Desktop: https://www.docker.com/products/docker-desktop
 - Git: https://git-scm.com (für den Download des Projekts)
-- Optional: VS Code oder ein anderes Terminal mit guter Nutzeroberfläche
+- VS Code oder ein anderes Terminal mit guter Nutzeroberfläche
 
 -------------------------------------------------------------
 
