@@ -10,7 +10,7 @@ services:
     restart: always
 
   airflow-init:
-    image: apache/airflow:2.9.0
+    image: apache/airflow:2.9.2
     depends_on:
       - postgres
     environment:
@@ -24,7 +24,7 @@ services:
     restart: on-failure
 
   airflow-webserver:
-    image: apache/airflow:2.9.0
+    image: apache/airflow:2.9.2
     depends_on:
       - postgres
       - airflow-init
@@ -45,7 +45,7 @@ services:
     restart: always
 
   airflow-scheduler:
-    image: apache/airflow:2.9.0
+    image: apache/airflow:2.9.2
     depends_on:
       - airflow-webserver
     environment:
