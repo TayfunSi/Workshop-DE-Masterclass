@@ -35,9 +35,6 @@ services:
       AIRFLOW__WEBSERVER__EXPOSE_CONFIG: 'true'
       AIRFLOW__CORE__FERNET_KEY: ''
       AIRFLOW__WEBSERVER__SECRET_KEY: 'mysecret'
-      AZURE_STORAGE_ACCOUNT_NAME: ${AZURE_STORAGE_ACCOUNT_NAME}
-      AZURE_STORAGE_ACCOUNT_KEY: ${AZURE_STORAGE_ACCOUNT_KEY}
-      AZURE_CONTAINER_NAME: ${AZURE_CONTAINER_NAME}
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
