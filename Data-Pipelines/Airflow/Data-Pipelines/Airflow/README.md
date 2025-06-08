@@ -9,7 +9,9 @@ Dieses Setup ermöglicht es dir, Apache Airflow lokal auszuführen – ganz ohne
 
 Bitte installiere vorher:
 
-- Docker Desktop: https://www.docker.com/products/docker-desktop
+- Docker Desktop:
+    - MacOS: über Support App
+    - Windows: tbd  
 - Git: https://git-scm.com (für den Download des Projekts)
 - VS Code oder ein anderes Terminal mit guter Nutzeroberfläche
 
