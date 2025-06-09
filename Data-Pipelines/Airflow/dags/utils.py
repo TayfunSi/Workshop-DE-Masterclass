@@ -29,7 +29,8 @@ def case2_copy_taxi_zone_on_file_entry():
     # cp <zu kopierende Datei> <neuer Dateiname>
 
 
-def case3_join_taxi_with_zones(execution_date=None):
+def case3_join_taxi_with_zones(**kwargs):
+    execution_date = kwargs['execution_date']
     # Dynamisch Jahr und Monat vom execution_date ermitteln
     first_of_month = execution_date.replace(day=1)
     prev_month_end = first_of_month - timedelta(days=1)

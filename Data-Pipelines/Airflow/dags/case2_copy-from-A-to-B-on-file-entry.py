@@ -11,7 +11,7 @@ from utils import case2_copy_taxi_zone_on_file_entry  # die bestehende Funktion
 default_args = {
     'owner': 'airflow',
     'start_date': datetime(2025, 6, 1),
-    'retries': 1,
+    'retries': 0,
     'retry_delay': timedelta(minutes=5)
 }
 

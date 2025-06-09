@@ -12,8 +12,7 @@ from utils import case3_join_taxi_with_zones  # Der Join ist ausgelagert
 default_args = {
     'owner': 'airflow',
     'start_date': datetime(2024, 2, 1),
-    'retries': 1,
-    'retry_delay': timedelta(minutes=5)
+    'retries': 0
 }
 
 with DAG(
@@ -55,7 +54,8 @@ with DAG(
 
     join_task = PythonOperator(
         task_id='join_with_zone_data',
-        python_callable=case3_join_taxi_with_zones
+        python_callable=case3_join_taxi_with_zones,
+        provide_context=True
     )
 
     filter_task >> join_task
