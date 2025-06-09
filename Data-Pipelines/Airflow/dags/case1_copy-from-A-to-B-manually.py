@@ -11,7 +11,7 @@ from utils import case1_copy_taxi_zone_manually  # Funktion aus utils.py
 
 default_args = {
     'owner': 'airflow',
-    'start_date': datetime(2023, 1, 1),
+    'start_date': datetime(2025, 6, 1),
     'retries': 1
 }
 
@@ -20,7 +20,7 @@ with DAG(
     default_args=default_args,
     schedule_interval=None,  # Nur manuell auslösen
     catchup=False,
-    description='Lädt TaxiZone.csv aus raw, bereinigt und speichert in processed'
+    description='Lädt zones.csv aus raw, bereinigt und speichert in processed'
 ) as dag:
 
     ingest_task = PythonOperator(
