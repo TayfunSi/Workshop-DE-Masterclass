@@ -13,6 +13,13 @@ sudo chmod -R u+rwX,g+rwX,o+rX ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/
 sudo chmod -R u+rwX,g+rwX,o+rX ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
 sudo chmod -R u+rwX,g+rwX,o+rX ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/plugins
 
+# 2.1 Ownership korrekt setzen für Airflow (Container läuft mit UID 50000)
+echo "-> Besitzerrechte für Airflow setzen (UID 50000)..."
+sudo chown -R 50000:50000 ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/data
+sudo chown -R 50000:50000 ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/logs
+sudo chown -R 50000:50000 ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+sudo chown -R 50000:50000 ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/plugins
+
 # 3. Nicht versionierte Dateien sichern (falls nötig)
 BACKUP_DIR=~/backup_airflow_files_$(date +%Y%m%d_%H%M%S)
 echo "-> Nicht versionierte Dateien sichern (falls vorhanden) nach $BACKUP_DIR"

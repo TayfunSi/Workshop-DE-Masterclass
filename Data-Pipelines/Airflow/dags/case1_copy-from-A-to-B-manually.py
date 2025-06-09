@@ -12,7 +12,7 @@ from utils import case1_copy_taxi_zone_manually  # Funktion aus utils.py
 default_args = {
     'owner': 'airflow',
     'start_date': datetime(2025, 6, 1),
-    'retries': 1
+    'retries': 0
 }
 
 with DAG(
