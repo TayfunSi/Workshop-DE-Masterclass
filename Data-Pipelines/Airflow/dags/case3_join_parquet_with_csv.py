@@ -33,7 +33,7 @@ def filter_january_2024():
     print(f"✅ {len(df_filtered)} Zeilen gefiltert für Januar 2024")
 
 with DAG(
-    dag_id='case3_join_parquet_with_csv',
+    dag_id='case3',
     default_args=default_args,
     schedule_interval=None,
     catchup=False,
