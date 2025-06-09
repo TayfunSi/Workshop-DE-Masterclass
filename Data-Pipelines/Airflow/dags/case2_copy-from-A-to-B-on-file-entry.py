@@ -28,7 +28,7 @@ with DAG(
         filepath='/opt/airflow/data/raw/TaxiZone_13062025.csv',
         poke_interval=30,        # prüft alle 30 Sekunden
         timeout=60*60,           # maximal 60 Minuten warten
-        mode='reschedule'              # blockiert Task bis Datei da ist
+        mode='poke'              # blockiert Task bis Datei da ist
     )
 
     process_file = PythonOperator(
