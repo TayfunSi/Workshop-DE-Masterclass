@@ -16,7 +16,7 @@ default_args = {
     }
 
 with DAG(
-    dag_id='case3_join_taxi_with_zone_data',
+    dag_id='case3',
     default_args=default_args,
     schedule_interval=None,
     catchup=True,
@@ -32,8 +32,8 @@ with DAG(
         # 📆 Vormonat berechnen
         first_of_month = execution_date.replace(day=1)
         prev_month_end = first_of_month - timedelta(days=1)
-        year = prev_month_end.year
-        month = prev_month_end.month
+        year = 2024
+        month = 1
 
         output_path = f"{output_dir}/taxi_data_{year}-{month:02d}.parquet"
 
