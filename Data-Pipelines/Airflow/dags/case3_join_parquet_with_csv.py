@@ -18,8 +18,8 @@ default_args = {
 with DAG(
     dag_id='case3_join_taxi_with_zone_data',
     default_args=default_args,
-    schedule_interval='@monthly',
-    catchup=True,
+    schedule_interval=None,
+    catchup=False,
     description='Filtert Taxi-Daten pro Monat und joint mit Zone-Daten'
 ) as dag:
 
