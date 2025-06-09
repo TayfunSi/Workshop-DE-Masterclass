@@ -25,10 +25,10 @@ with DAG(
 
     wait_for_file = FileSensor(
         task_id='wait_for_taxi_zone_file',
-        filepath='data/raw/TaxiZone_13062025.csv',
+        filepath='/opt/airflow/data/raw/TaxiZone_13062025.csv',
         poke_interval=30,        # prüft alle 30 Sekunden
         timeout=60*60,           # maximal 60 Minuten warten
-        mode='poke'              # blockiert Task bis Datei da ist
+        mode='reschedule'              # blockiert Task bis Datei da ist
     )
 
     process_file = PythonOperator(
