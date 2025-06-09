@@ -1,0 +1,1 @@
+ssh -i <Pfad_zur_Datei>nifi_vm_cert.pem nifi_w_vm_admin@20.170.113.163

@@ -39,3 +39,5 @@ echo "-> Stash anwenden..."
 git -C ~/Workshop-DE-Masterclass stash pop 2>/dev/null || echo "Kein Stash zum Anwenden."
 
 echo "==> Setup abgeschlossen! Viel Erfolg im Workshop!"
+
+cd Workshop-DE-Masterclass/Data-Pipelines/Airflow
