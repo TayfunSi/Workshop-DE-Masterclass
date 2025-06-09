@@ -29,13 +29,16 @@ def case2_copy_taxi_zone_on_file_entry():
     # cp <zu kopierende Datei> <neuer Dateiname>
 
 
-def case3_join_taxi_with_zones():
-    year = 2024
-    month = 1
-
-    taxi_path = f"data/processed/taxi_data_2024-01.parquet"
+def case3_join_taxi_with_zones(execution_date=None):
+    # Dynamisch Jahr und Monat vom execution_date ermitteln
+    first_of_month = execution_date.replace(day=1)
+    prev_month_end = first_of_month - timedelta(days=1)
+    year = prev_month_end.year
+    month = prev_month_end.month
+    
+    taxi_path = f"data/processed/taxi_data_{year}-{month:02d}.parquet"
     zone_path = "data/raw/zones.csv"
-    output_path = f"data/processed/taxi_data_2024-01_enriched.parquet"
+    output_path = f"data/processed/taxi_data_{year}-{month:02d}_enriched.parquet"
 
     df_taxi = pd.read_parquet(taxi_path)
     df_zone = pd.read_csv(zone_path)
