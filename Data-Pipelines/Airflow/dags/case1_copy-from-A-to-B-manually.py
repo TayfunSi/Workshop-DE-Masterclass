@@ -16,7 +16,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='copy-from-A-to-B',
+    dag_id='case1_copy-from-A-to-B',
     default_args=default_args,
     schedule_interval=None,  # Nur manuell auslösen
     catchup=False,

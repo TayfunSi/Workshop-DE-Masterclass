@@ -16,7 +16,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='copy-from-A-to-B-on-file-entry',
+    dag_id='case2_copy-from-A-to-B-on-file-entry',
     default_args=default_args,
     schedule_interval='@daily',  # täglich
     catchup=False,

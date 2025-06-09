@@ -12,7 +12,7 @@ from utils import case4_join_taxi_with_zones, case4_check_data_quality
 
 default_args = {
     'owner': 'airflow',
-    'start_date': datetime(2024, 15, 1),
+    'start_date': datetime(2024, 1, 15),
     'retries': 1,
     'retry_delay': timedelta(minutes=5),
     'email': ['tayfun.simsek@mhp.com'],
