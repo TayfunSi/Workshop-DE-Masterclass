@@ -45,6 +45,7 @@ services:
       - "8080:8080"
     command: webserver
     restart: always
+    user: "50000:50000"
 
   airflow-scheduler:
     image: apache/airflow:2.9.2
