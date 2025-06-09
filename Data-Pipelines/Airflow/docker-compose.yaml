@@ -1,3 +1,5 @@
+version: "3.8"
+
 services:
   postgres:
     image: postgres:13
@@ -23,6 +25,7 @@ services:
       - ./plugins:/opt/airflow/plugins
       - ./data:/opt/airflow/data
     restart: on-failure
+    user: "50000:0"  # Fix für permissions bei initialisierung (UID 50000, GID 0)
 
   airflow-webserver:
     image: apache/airflow:2.9.2
@@ -45,7 +48,7 @@ services:
       - "8080:8080"
     command: webserver
     restart: always
-    user: "50000:50000"
+    user: "50000:0"  # UID 50000, GID 0 (root group)
 
   airflow-scheduler:
     image: apache/airflow:2.9.2
@@ -66,6 +69,7 @@ services:
       - ./plugins:/opt/airflow/plugins
     command: scheduler
     restart: always
+    user: "50000:0"  # UID 50000, GID 0
 
 volumes:
   postgres-db-volume:

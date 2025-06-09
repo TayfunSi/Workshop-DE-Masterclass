@@ -12,32 +12,32 @@ echo "-> Schreibrechte setzen..."
 sudo chmod -R u+rwX,g+rwX,o+rX ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/data
 sudo chmod -R u+rwX,g+rwX,o+rX ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
 sudo chmod -R u+rwX,g+rwX,o+rX ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/plugins
+sudo chmod -R u+rwX,g+rwX,o+rX ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/logs
 
-# 2.1 Ownership korrekt setzen für Airflow (Container läuft mit UID 50000)
-echo "-> Besitzerrechte für Airflow setzen (UID 50000)..."
-sudo chown -R 50000:50000 ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/data
-sudo chown -R 50000:50000 ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/logs
-sudo chown -R 50000:50000 ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
-sudo chown -R 50000:50000 ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/plugins
+# 2.1 Ownership korrekt setzen für Airflow (UID 50000, GID 0)
+echo "-> Besitzerrechte für Airflow setzen (UID 50000, GID 0)..."
+sudo chown -R 50000:0 ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/data
+sudo chown -R 50000:0 ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/logs
+sudo chown -R 50000:0 ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+sudo chown -R 50000:0 ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow/plugins
 
-# 3. Nicht versionierte Dateien sichern (falls nötig)
-BACKUP_DIR=~/backup_airflow_files_$(date +%Y%m%d_%H%M%S)
-echo "-> Nicht versionierte Dateien sichern (falls vorhanden) nach $BACKUP_DIR"
-mkdir -p $BACKUP_DIR
-git ls-files --others --exclude-standard -z | xargs -0 -I{} mv {} $BACKUP_DIR 2>/dev/null || echo "Keine untracked Dateien gefunden."
+# 3. Lokale Änderungen verwerfen (alles zurücksetzen)
+echo "-> Lokale Änderungen verwerfen..."
+git -C ~/Workshop-DE-Masterclass reset --hard
+git -C ~/Workshop-DE-Masterclass clean -fd
 
-# 4. Änderungen stashen (lokale Änderungen sichern)
-echo "-> Lokale Änderungen stashen (falls vorhanden)..."
-git -C ~/Workshop-DE-Masterclass stash push -m "Auto-stash before pull" 2>/dev/null || echo "Nichts zu stashen."
-
-# 5. Remote Änderungen holen und mergen
+# 4. Remote Änderungen holen und mergen
 echo "-> Pull vom Remote-Repository durchführen..."
 git -C ~/Workshop-DE-Masterclass pull origin main --rebase
 
-# 6. Stash anwenden (lokale Änderungen wiederherstellen)
-echo "-> Stash anwenden..."
-git -C ~/Workshop-DE-Masterclass stash pop 2>/dev/null || echo "Kein Stash zum Anwenden."
+echo "-> Stoppe und entferne vorhandene Docker-Container..."
+cd ~/Workshop-DE-Masterclass/Data-Pipelines/Airflow
+docker-compose down
+
+# 5. UID/GID exportieren für docker-compose (UID 50000, GID 0)
+export UID=50000
+export GID=0
+echo "-> Starte Docker-Compose mit UID=$UID und GID=$GID ..."
+docker-compose up -d
 
 echo "==> Setup abgeschlossen! Viel Erfolg im Workshop!"
-
-cd Workshop-DE-Masterclass/Data-Pipelines/Airflow
