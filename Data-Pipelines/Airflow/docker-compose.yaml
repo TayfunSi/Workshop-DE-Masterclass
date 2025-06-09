@@ -54,6 +54,7 @@ services:
       AIRFLOW__CORE__FERNET_KEY: ''
     volumes:
       - ./dags:/opt/airflow/dags
+      - ./data:/opt/airflow/data
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
     command: scheduler
