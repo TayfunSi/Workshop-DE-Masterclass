@@ -2,7 +2,7 @@
 import pandas as pd
 import os
 
-def process_taxi_zone():
+def case1_process_taxi_zone():
     raw_path = "data/raw/TaxiZone.csv"
     processed_dir = "data/processed"
     processed_file = os.path.join(processed_dir, "TaxiZone_copied.csv")

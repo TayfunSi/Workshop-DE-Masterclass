@@ -7,7 +7,7 @@ import os
 # Damit du utils importieren kannst
 sys.path.append(os.path.dirname(__file__))
 
-from utils import process_taxi_zone  # Funktion aus utils.py
+from utils import case1_process_taxi_zone  # Funktion aus utils.py
 
 default_args = {
     'owner': 'airflow',
@@ -16,7 +16,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='ingest_taxi_zone_local',
+    dag_id='copy-from-A-to-B',
     default_args=default_args,
     schedule_interval=None,  # Nur manuell auslösen
     catchup=False,
@@ -25,7 +25,7 @@ with DAG(
 
     ingest_task = PythonOperator(
         task_id='process_taxi_zone',
-        python_callable=process_taxi_zone
+        python_callable=case1_process_taxi_zone
     )
 
     ingest_task
