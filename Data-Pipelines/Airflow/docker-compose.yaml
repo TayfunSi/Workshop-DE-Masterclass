@@ -55,6 +55,10 @@ services:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CORE__FERNET_KEY: ''
+      AIRFLOW__SCHEDULER__SCHEDULER_ZOMBIE_TASK_THRESHOLD: 300
+      AIRFLOW__SCHEDULER__JOB_HEARTBEAT_SEC: 5
+      AIRFLOW__SCHEDULER__LOCAL_TASK_JOB_HEARTBEAT_SEC: 5
+      AIRFLOW__SCHEDULER__ZOMBIE_DETECTION_INTERVAL: 10
     volumes:
       - ./dags:/opt/airflow/dags
       - ./data:/opt/airflow/data

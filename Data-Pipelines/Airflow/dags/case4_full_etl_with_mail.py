@@ -21,7 +21,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='case4_full_etl_with_email',
+    dag_id='case4',
     default_args=default_args,
     schedule_interval='@daily',
     catchup=True,
