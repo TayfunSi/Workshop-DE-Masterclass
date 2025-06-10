@@ -1,0 +1,79 @@
+[2025-06-10T09:38:56.529+0200] {processor.py:161} INFO - Started process (PID=18688) to work on /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:38:56.531+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py for tasks to queue
+[2025-06-10T09:38:56.531+0200] {logging_mixin.py:188} INFO - [2025-06-10T09:38:56.531+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:39:08.793+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:39:08.837+0200] {processor.py:183} INFO - Processing /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py took 12.315 seconds
+[2025-06-10T09:39:14.956+0200] {processor.py:161} INFO - Started process (PID=18739) to work on /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:39:14.958+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py for tasks to queue
+[2025-06-10T09:39:14.958+0200] {logging_mixin.py:188} INFO - [2025-06-10T09:39:14.958+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:39:15.933+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:39:15.972+0200] {processor.py:183} INFO - Processing /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py took 1.023 seconds
+[2025-06-10T09:39:48.477+0200] {processor.py:161} INFO - Started process (PID=18947) to work on /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:39:48.478+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py for tasks to queue
+[2025-06-10T09:39:48.479+0200] {logging_mixin.py:188} INFO - [2025-06-10T09:39:48.479+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:39:48.747+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:39:48.777+0200] {processor.py:183} INFO - Processing /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py took 0.301 seconds
+[2025-06-10T09:40:19.926+0200] {processor.py:161} INFO - Started process (PID=19054) to work on /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:40:19.928+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py for tasks to queue
+[2025-06-10T09:40:19.928+0200] {logging_mixin.py:188} INFO - [2025-06-10T09:40:19.928+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:40:20.238+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:40:20.269+0200] {processor.py:183} INFO - Processing /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py took 0.351 seconds
+[2025-06-10T09:40:52.253+0200] {processor.py:161} INFO - Started process (PID=19148) to work on /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:40:52.255+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py for tasks to queue
+[2025-06-10T09:40:52.255+0200] {logging_mixin.py:188} INFO - [2025-06-10T09:40:52.255+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:40:52.556+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:40:52.587+0200] {processor.py:183} INFO - Processing /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py took 0.341 seconds
+[2025-06-10T09:42:37.089+0200] {processor.py:161} INFO - Started process (PID=19752) to work on /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:42:37.090+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py for tasks to queue
+[2025-06-10T09:42:37.090+0200] {logging_mixin.py:188} INFO - [2025-06-10T09:42:37.090+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:42:37.338+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:42:37.367+0200] {processor.py:183} INFO - Processing /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py took 0.280 seconds
+[2025-06-10T09:43:08.469+0200] {processor.py:161} INFO - Started process (PID=19847) to work on /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:43:08.471+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py for tasks to queue
+[2025-06-10T09:43:08.471+0200] {logging_mixin.py:188} INFO - [2025-06-10T09:43:08.471+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:43:08.778+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:43:08.808+0200] {processor.py:183} INFO - Processing /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py took 0.348 seconds
+[2025-06-10T09:43:40.789+0200] {processor.py:161} INFO - Started process (PID=19964) to work on /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:43:40.790+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py for tasks to queue
+[2025-06-10T09:43:40.790+0200] {logging_mixin.py:188} INFO - [2025-06-10T09:43:40.790+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:43:41.083+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:43:41.113+0200] {processor.py:183} INFO - Processing /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py took 0.333 seconds
+[2025-06-10T09:46:59.047+0200] {processor.py:161} INFO - Started process (PID=21424) to work on /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:46:59.049+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py for tasks to queue
+[2025-06-10T09:46:59.049+0200] {logging_mixin.py:188} INFO - [2025-06-10T09:46:59.049+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:46:59.357+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:46:59.393+0200] {processor.py:183} INFO - Processing /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py took 0.355 seconds
+[2025-06-10T09:47:31.496+0200] {processor.py:161} INFO - Started process (PID=21511) to work on /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:47:31.498+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py for tasks to queue
+[2025-06-10T09:47:31.498+0200] {logging_mixin.py:188} INFO - [2025-06-10T09:47:31.498+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:47:31.798+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:47:31.827+0200] {processor.py:183} INFO - Processing /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py took 0.337 seconds
+[2025-06-10T09:48:14.013+0200] {processor.py:161} INFO - Started process (PID=22722) to work on /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:48:14.014+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py for tasks to queue
+[2025-06-10T09:48:14.015+0200] {logging_mixin.py:188} INFO - [2025-06-10T09:48:14.015+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:48:14.334+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:48:14.365+0200] {processor.py:183} INFO - Processing /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py took 0.359 seconds
+[2025-06-10T09:48:23.175+0200] {processor.py:161} INFO - Started process (PID=22744) to work on /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:48:23.176+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py for tasks to queue
+[2025-06-10T09:48:23.177+0200] {logging_mixin.py:188} INFO - [2025-06-10T09:48:23.177+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:48:23.479+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:51:16.709+0200] {processor.py:161} INFO - Started process (PID=23895) to work on /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:51:16.711+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py for tasks to queue
+[2025-06-10T09:51:16.711+0200] {logging_mixin.py:188} INFO - [2025-06-10T09:51:16.711+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:51:17.023+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:51:17.053+0200] {processor.py:183} INFO - Processing /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py took 0.349 seconds
+[2025-06-10T09:51:49.058+0200] {processor.py:161} INFO - Started process (PID=23961) to work on /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:51:49.060+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py for tasks to queue
+[2025-06-10T09:51:49.060+0200] {logging_mixin.py:188} INFO - [2025-06-10T09:51:49.060+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:51:49.363+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:51:49.393+0200] {processor.py:183} INFO - Processing /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py took 0.341 seconds
+[2025-06-10T09:52:21.076+0200] {processor.py:161} INFO - Started process (PID=24042) to work on /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:52:21.077+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py for tasks to queue
+[2025-06-10T09:52:21.077+0200] {logging_mixin.py:188} INFO - [2025-06-10T09:52:21.077+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:52:21.338+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:52:21.367+0200] {processor.py:183} INFO - Processing /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py took 0.293 seconds
+[2025-06-10T09:52:45.874+0200] {processor.py:161} INFO - Started process (PID=24185) to work on /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:52:45.876+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py for tasks to queue
+[2025-06-10T09:52:45.876+0200] {logging_mixin.py:188} INFO - [2025-06-10T09:52:45.876+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:52:46.179+0200] {processor.py:842} WARNING - No viable dags retrieved from /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py
+[2025-06-10T09:52:46.210+0200] {processor.py:183} INFO - Processing /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py took 0.344 seconds

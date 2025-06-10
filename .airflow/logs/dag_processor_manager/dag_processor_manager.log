@@ -1,0 +1,115 @@
+[2025-06-10T09:38:55.714+0200] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-06-10T09:38:55.714+0200] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-06-10T09:38:55.714+0200] {manager.py:472} INFO - Checking for new files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags every 300 seconds
+[2025-06-10T09:38:55.715+0200] {manager.py:737} INFO - Searching for files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:38:55.718+0200] {manager.py:740} INFO - There are 1 files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:39:12.137+0200] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-06-10T09:39:13.954+0200] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-06-10T09:39:13.955+0200] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-06-10T09:39:13.955+0200] {manager.py:472} INFO - Checking for new files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags every 300 seconds
+[2025-06-10T09:39:13.955+0200] {manager.py:737} INFO - Searching for files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:39:13.956+0200] {manager.py:740} INFO - There are 1 files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:39:17.544+0200] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-06-10T09:39:47.651+0200] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-06-10T09:39:47.651+0200] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-06-10T09:39:47.651+0200] {manager.py:472} INFO - Checking for new files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags every 300 seconds
+[2025-06-10T09:39:47.651+0200] {manager.py:737} INFO - Searching for files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:39:47.652+0200] {manager.py:740} INFO - There are 1 files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:40:16.796+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py                           0           0  1.18s           2025-06-10T07:39:48
+================================================================================
+[2025-06-10T09:40:46.869+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py                           0           0  1.38s           2025-06-10T07:40:20
+================================================================================
+[2025-06-10T09:41:15.916+0200] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-06-10T09:42:36.210+0200] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-06-10T09:42:36.210+0200] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-06-10T09:42:36.210+0200] {manager.py:472} INFO - Checking for new files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags every 300 seconds
+[2025-06-10T09:42:36.210+0200] {manager.py:737} INFO - Searching for files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:42:36.211+0200] {manager.py:740} INFO - There are 1 files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:43:05.330+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py                           0           0  1.22s           2025-06-10T07:42:37
+================================================================================
+[2025-06-10T09:43:35.388+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py                           0           0  1.32s           2025-06-10T07:43:08
+================================================================================
+[2025-06-10T09:43:50.037+0200] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-06-10T09:46:58.148+0200] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-06-10T09:46:58.148+0200] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-06-10T09:46:58.148+0200] {manager.py:472} INFO - Checking for new files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags every 300 seconds
+[2025-06-10T09:46:58.148+0200] {manager.py:737} INFO - Searching for files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:46:58.149+0200] {manager.py:740} INFO - There are 1 files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:47:27.272+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py                           0           0  1.31s           2025-06-10T07:46:59
+================================================================================
+[2025-06-10T09:47:36.863+0200] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-06-10T09:48:13.101+0200] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-06-10T09:48:13.101+0200] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-06-10T09:48:13.101+0200] {manager.py:472} INFO - Checking for new files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags every 300 seconds
+[2025-06-10T09:48:13.101+0200] {manager.py:737} INFO - Searching for files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:48:13.102+0200] {manager.py:740} INFO - There are 1 files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:48:21.281+0200] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-06-10T09:48:22.318+0200] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-06-10T09:48:22.318+0200] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-06-10T09:48:22.318+0200] {manager.py:472} INFO - Checking for new files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags every 300 seconds
+[2025-06-10T09:48:22.318+0200] {manager.py:737} INFO - Searching for files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:48:22.319+0200] {manager.py:740} INFO - There are 1 files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:48:23.505+0200] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-06-10T09:51:15.776+0200] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-06-10T09:51:15.776+0200] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-06-10T09:51:15.776+0200] {manager.py:472} INFO - Checking for new files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags every 300 seconds
+[2025-06-10T09:51:15.776+0200] {manager.py:737} INFO - Searching for files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:51:15.777+0200] {manager.py:740} INFO - There are 1 files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:51:44.908+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py                           0           0  1.32s           2025-06-10T07:51:17
+================================================================================
+[2025-06-10T09:52:14.981+0200] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags/utils.py                           0           0  1.38s           2025-06-10T07:51:49
+================================================================================
+[2025-06-10T09:52:26.857+0200] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-06-10T09:52:28.439+0200] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-06-10T09:52:28.439+0200] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-06-10T09:52:28.439+0200] {manager.py:472} INFO - Checking for new files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags every 300 seconds
+[2025-06-10T09:52:28.440+0200] {manager.py:737} INFO - Searching for files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:52:28.441+0200] {manager.py:740} INFO - There are 1 files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:52:29.402+0200] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-06-10T09:52:45.000+0200] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-06-10T09:52:45.000+0200] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-06-10T09:52:45.000+0200] {manager.py:472} INFO - Checking for new files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags every 300 seconds
+[2025-06-10T09:52:45.000+0200] {manager.py:737} INFO - Searching for files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
+[2025-06-10T09:52:45.001+0200] {manager.py:740} INFO - There are 1 files in /Users/tsimsek/Workshop-DE-Masterclass/Data-Pipelines/Airflow/dags
